@@ -116,7 +116,7 @@ html, body, [class*="css"] {
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--text);
+    color: #fdf7e1;
     margin: 1.5rem 0 1rem 0;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border);
@@ -317,8 +317,8 @@ with right:
         else:
             st.markdown(f"""
             <div class="result-negative">
-                <div class="result-icon" style="color:#1a6b3c">&#10003;</div>
-                <div class="result-label" style="color:#1a6b3c">No Heart Disease</div>
+                <div class="result-icon" style="color:#1da556">&#10003;</div>
+                <div class="result-label" style="color:#1da556">No Heart Disease</div>
                 <div class="result-sub">Model predicts no heart disease detected</div>
             </div>
             """, unsafe_allow_html=True)
@@ -328,11 +328,11 @@ with right:
         fig = go.Figure(go.Indicator(
             mode  = "gauge+number",
             value = risk_pct,
-            title = {"text": "Disease Risk %", "font": {"color": "#faf0e5", "size": 13, "family": "Lato"}},
-            number = {"suffix": "%", "font": {"color": "#ffe9e9", "size": 36, "family": "Playfair Display"}},
+            title = {"text": "Disease Risk %", "font": {"color": "#fdf7e1", "size": 13, "family": "Lato"}},
+            number = {"suffix": "%", "font": {"color": "#fdf7e1", "size": 36, "family": "Playfair Display"}},
             gauge = {
                 "axis":        {"range": [0, 100], "tickcolor": "#b0a898", "tickfont": {"color": "#7a736b"}},
-                "bar":         {"color": "#c0392b" if risk_pct > 50 else "#1a6b3c"},
+                "bar":         {"color": "#c0392b" if risk_pct > 50 else "#2fa05e"},
                 "bgcolor":     "#f5f0eb",
                 "bordercolor": "#e0d8cf",
                 "steps": [
@@ -351,7 +351,7 @@ with right:
             height=220,
             margin=dict(t=30, b=10, l=20, r=20),
             paper_bgcolor="rgba(0,0,0,0)",
-            font_color="#fff4f4"
+            font_color="#fdf7e1"
         )
         st.plotly_chart(fig, use_container_width=True)
 
@@ -366,11 +366,11 @@ with right:
             textfont     = {"color": "#fdf7e1", "family": "Lato"},
         ))
         fig2.update_layout(
-            title         = {"text": "Confidence Breakdown", "font": {"color": "#faf1e7", "size": 13, "family": "Lato"}},
+            title         = {"text": "Confidence Breakdown", "font": {"color": "#fdf7e1", "size": 13, "family": "Lato"}},
             height        = 220,
             margin        = dict(t=40, b=20, l=10, r=10),
             yaxis         = dict(range=[0, 115], showgrid=False, visible=False),
-            xaxis         = dict(tickfont={"color": "#fff3f3", "family": "Lato"}),
+            xaxis         = dict(tickfont={"color": "#fdf7e1", "family": "Lato"}),
             paper_bgcolor = "rgba(0,0,0,0)",
             plot_bgcolor  = "rgba(0,0,0,0)",
             showlegend    = False,
