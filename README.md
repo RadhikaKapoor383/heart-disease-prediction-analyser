@@ -7,7 +7,7 @@
 
 A machine learning-based healthcare application that predicts the likelihood of heart disease using patient medical data. The project leverages data preprocessing, exploratory data analysis, and predictive modeling techniques to assist in early detection and risk assessment.
 
-**Live Demo:** https://heart-disease-prediction-analyser.streamlit.app/
+**Live Demo:** https://heart-disease-prediction-analyser.streamlit.app/ </br>
 **GitHub Repository:** https://github.com/RadhikaKapoor383/heart-disease-prediction-analyser
 
 ---
@@ -48,6 +48,7 @@ The system provides an easy-to-use interface where users can enter health inform
 
 ## Dataset Features
 
+
 The model uses the following medical attributes:
 
 * Age
@@ -65,15 +66,8 @@ The model uses the following medical attributes:
 
 ---
 
-## Live Demo
-
-Experience the application here:
-
--> **https://heart-disease-prediction-analyser.streamlit.app/**
-
----
-
 ## Installation
+
 
 ### Clone the repository
 
