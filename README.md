@@ -1,27 +1,35 @@
 # Heart Disease Prediction Analyser
 
-A machine learning-based healthcare application that predicts the likelihood of heart disease using patient medical data. This project utilizes data preprocessing, visualization, and predictive modeling techniques to assist in early detection and risk assessment of heart disease.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+![License](https://img.shields.io/badge/License-Educational-green)
+
+A machine learning-based healthcare application that predicts the likelihood of heart disease using patient medical data. The project leverages data preprocessing, exploratory data analysis, and predictive modeling techniques to assist in early detection and risk assessment.
+
+**Live Demo:** https://heart-disease-prediction-analyser.streamlit.app/
+**GitHub Repository:** https://github.com/RadhikaKapoor383/heart-disease-prediction-analyser
 
 ---
 
 ## Project Overview
 
-Heart disease is one of the leading causes of death worldwide. Early prediction and diagnosis can help reduce risks and improve treatment outcomes. This project analyzes various health parameters and uses machine learning algorithms to predict whether a patient is likely to have heart disease.
+Heart disease remains one of the leading causes of death worldwide. Early prediction can help improve diagnosis and treatment outcomes. This application analyzes medical parameters and predicts the likelihood of heart disease using machine learning models.
 
-The system provides an easy-to-use interface for entering patient information and obtaining prediction results based on trained machine learning models.
+The system provides an easy-to-use interface where users can enter health information and receive prediction results instantly.
 
 ---
 
 ## Features
 
-* Heart disease prediction using machine learning algorithms.
+* Heart disease prediction using machine learning models.
 * Data preprocessing and cleaning.
 * Exploratory Data Analysis (EDA).
-* Data visualization using charts and graphs.
+* Interactive visualizations and charts.
 * Model training and evaluation.
 * User-friendly prediction interface.
-* Performance comparison of machine learning models.
-* Accuracy and evaluation metrics.
+* Performance comparison of models.
+* Prediction accuracy and evaluation metrics.
 
 ---
 
@@ -33,13 +41,14 @@ The system provides an easy-to-use interface for entering patient information an
 * Scikit-learn
 * Matplotlib
 * Seaborn
+* Streamlit
 * Jupyter Notebook
 
 ---
 
-## Dataset
+## Dataset Features
 
-The project uses a heart disease dataset containing various medical attributes such as:
+The model uses the following medical attributes:
 
 * Age
 * Sex
@@ -54,31 +63,41 @@ The project uses a heart disease dataset containing various medical attributes s
 * Number of Major Vessels
 * Thalassemia
 
-These attributes are used to train the machine learning model and predict the likelihood of heart disease.
+---
+
+## Live Demo
+
+Experience the application here:
+
+-> **https://heart-disease-prediction-analyser.streamlit.app/**
 
 ---
 
 ## Installation
 
-1. Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/RadhikaKapoor383/heart-disease-prediction-analyser.git
 ```
 
-2. Navigate to the project directory:
+### Navigate to the project directory
 
 ```bash
 cd heart-disease-prediction-analyser
 ```
 
-3. Install the required dependencies:
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application or notebook.
+### Run the application
+
+```bash
+streamlit run app.py
+```
 
 ---
 
@@ -87,16 +106,16 @@ pip install -r requirements.txt
 1. Data Collection
 2. Data Cleaning
 3. Exploratory Data Analysis
-4. Feature Selection
+4. Feature Engineering
 5. Model Training
 6. Model Evaluation
-7. Prediction and Analysis
+7. Prediction Generation
 
 ---
 
-## Model Evaluation Metrics
+## Evaluation Metrics
 
-The model performance can be evaluated using:
+The model performance is evaluated using:
 
 * Accuracy Score
 * Precision
@@ -108,11 +127,11 @@ The model performance can be evaluated using:
 
 ## Future Improvements
 
-* Deploy the model as a web application.
-* Add real-time patient data input.
-* Integrate multiple machine learning models.
+* Add multiple machine learning algorithms.
 * Improve prediction accuracy.
-* Add advanced visualization dashboards.
+* Support real-time patient data input.
+* Deploy advanced dashboards and analytics.
+* Integrate explainable AI techniques.
 
 ---
 
@@ -124,14 +143,16 @@ Sukkur IBA University
 
 * GitHub: https://github.com/RadhikaKapoor383
 * LinkedIn: https://www.linkedin.com/in/radhika-kapoor2005/
-* Live Demo: https://heart-disease-prediction-analyser.streamlit.app/  
+* Live Demo: https://heart-disease-prediction-analyser.streamlit.app/
+
+---
+
+## Support
+
+If you found this project useful, please consider giving it a star on GitHub.
 
 ---
 
 ## License
 
-This project is developed for educational and learning purposes. Feel free to use and modify it for academic and non-commercial use.
-
----
-
-If you found this project useful, please consider giving it a star.
+This project is developed for educational and learning purposes and is intended for academic and non-commercial use.
